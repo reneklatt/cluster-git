@@ -1,0 +1,25 @@
+{
+    "name": "reneklatt/cluster-git",
+    "type": "library",
+    "description": "Cluster Git",
+    "keywords": ["cluster", "git"],
+    "authors": [
+        {
+            "name": "René Klatt",
+            "email": "rene.klatt@gmx.net",
+            "role": "Senior Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["/src"]
+    },
+    "require": {
+        "symfony/console": "*",
+        "symfony/finder": "*",
+        "symfony/filesystem": "*",
+        "php": ">=5.4.0"
+    },
+    "bin": [
+        "bin/cgit"
+    ]
+}
