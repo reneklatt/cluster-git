@@ -30,7 +30,7 @@ class Application extends BaseApplication
     protected function getDefaultCommands()
     {
         $commands = parent::getDefaultCommands();
-        $commands[] = new Command\Package\Create();
+        $commands[] = new ClusterGit\Command\Status();
         return $commands;
     }
 
